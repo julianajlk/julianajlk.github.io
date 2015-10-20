@@ -1,0 +1,307 @@
+@import url(https://fonts.googleapis.com/css?family=Vidaloka);
+@import url(https://fonts.googleapis.com/css?family=Futura Light:400,300,700&subset=latin,latin-ext);
+
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  font: normal 1.125em Futura Light Light, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a.contact-email {
+  letter-spacing: 0;
+  line-height: 2em;
+}
+
+
+h1 {
+  font: normal 3em "Vidaloka", serif;
+  color: #000;
+  line-height: 60px;
+  letter-spacing: 0;
+}
+
+h2 {
+  font: normal 2em "Vidaloka", serif;
+  color: #000;
+  letter-spacing: 0;
+  margin-top: 20px;
+}
+
+h3 {
+  font: normal 0.75em Futura Light, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #f76b6b;
+}
+
+h4 {
+  font: normal 0.75em Futura Light, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #ff3600;
+  display: inline;
+}
+
+h5 {
+  font: normal 2.2em Futura, Helvetica, sans-serif;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+h6 {
+  font: bold 1.625em "Vidaloka", serif;
+  color: #000;
+  letter-spacing: 0;
+}
+
+sup {
+  font: bold italic 0.75em "Vidaloka", serif;
+  display: inline;
+  color: #000;
+  cursor: pointer;
+}
+
+p {
+  font: normal 1.125em Futura Light, Helvetica, sans-serif;
+  line-height: 26px;
+  color: #000;
+}
+
+ul {
+  display: inline;
+  position: relative;
+  font-size: 0.8em;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 0px;
+  vertical-align: text-bottom;
+}
+
+li {
+  display: inline;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+/*///BACK TO TOP///*/
+
+a.back-to-top {
+  display: none;
+  width: 55px;
+  height: 79px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  background: url("../images/jk-studio-backtotop-icon-2.png") no-repeat center 43%;
+}
+
+a:hover.back-to-top {
+  background-color: none;
+  background: url("../images/jk-studio-backtotop-icon-hover.png") no-repeat center 43%;
+}
+
+
+/*///NAV///*/
+
+nav.fixed-nav-bar {
+  background-color: #a1a1a1;
+  text-align: center;
+  z-index: 4;
+  padding: 20px 0px 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.social-nav {
+  width: 27%;
+  display: block;
+  float: left;
+  text-align: left;
+  font-size: 0.9em;
+  text-transform: none;
+}
+
+.menu {
+  width: 72%;
+  display: block;
+  float: left;
+  text-align: right;
+  font-family: normal Futura Light, Helvetica, sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.fixed-nav-bar a:hover {
+  color: #ffb8ed;
+}
+
+
+/*///ABOUT///*/
+#about {
+  background-color: #ffb8ed;
+  padding: 90px 200px 110px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+}
+
+.about-word {
+  font-family: "Vidaloka", serif;
+  font-size: 2em;
+}
+
+/*///SERVIÇOS///*/ 
+#services {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c0c0c0;
+  height: 950px;
+}
+
+#services h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#services p {
+  text-align: center;
+  line-height: 1em;
+}
+
+#background .scroll-words {
+  background-attachment: scroll;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.services-box {
+  width: 400px;
+  height: 350px;
+  background-color: #fff;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:auto;
+  z-index: 1;
+  padding: 0px 40px 0px;
+}
+
+.block-1 {
+  float: left;
+}
+
+.block-2 {
+  float: right;
+}
+
+.scroll-words p {
+  font-size: 4.5em;
+  line-height: 0.5em;
+  color: #ffb8ed;
+  font-family: 'Vidaloka', serif;
+  text-align: center;
+}
+
+
+/*///CLIENTS///*/
+.client-area {
+  background-color: #fff;
+  padding: 7% 18% 12%;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  text-align: center;
+}
+
+.client-area h1 {
+  text-align: center;
+}
+
+.client-area img {
+  padding: 50px 50px 0px;
+}
+
+
+
+/*///WORK///*/
+
+#work {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #c0c0c0;
+  position: relative;
+  z-index: 3;
+  overflow: auto;
+  width: 100%;
+}
+
+#work h1 {
+  text-align: center;
+}
+
+#work p {
+  text-align: center;
+}
+
+#work .container {
+  width: 100%;
+  background-size: auto;
+}
+
+#work img {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  float: right;
+}
+
+#work .second-col img {
+  float: left;
+}
+
+
+
+
+/*///FOOTER///*/
+
+
