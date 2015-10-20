@@ -1,3 +1,18 @@
+// responsive nav
+
+$(".menu").click(function(){
+  $(".active").toggle();
+});
+
+$(window).resize(function(){
+  if(window.innerWidth > 768) {
+    $(".menu").removeAttr("style");
+  }
+});
+
+
+
+
 // fancybox - work
   $(document).ready(function() {
     $(".fancybox").fancybox({

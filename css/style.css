@@ -142,20 +142,16 @@ nav.fixed-nav-bar {
   width: 100%;
 }
 
-.social-nav {
-  width: 27%;
-  display: block;
-  float: left;
-  text-align: left;
-  font-size: 0.9em;
+.social-nav a {
+  font-size: 1.8em;
   text-transform: none;
 }
 
-.menu {
-  width: 72%;
+.menu-links {
+  width: 100%;
   display: block;
-  float: left;
-  text-align: right;
+  float: none;
+  text-align: center;
   font-family: normal Futura Light, Helvetica, sans-serif;
   font-size: 0.7em;
   letter-spacing: 0.15em;
@@ -165,6 +161,80 @@ nav.fixed-nav-bar {
 
 .fixed-nav-bar a:hover {
   color: #ffb8ed;
+}
+
+/*----- Hidden items -----*/
+.toggle-nav {
+    display:none;
+    margin-right: 25px;
+    font-family: "Vidaloka", serif;
+}
+
+#social-nav-mobile a {
+  display: none;
+  font-family: "Vidaloka", serif;
+}
+ 
+/*----- Responsive -----*/
+@media screen and (max-width: 860px) {
+    .menu {
+        position:relative;
+        display:inline-block;
+    }
+
+    #social-nav {
+      display: none;
+    }
+ 
+    .menu ul.active {
+      display:none;
+    }
+ 
+    .menu ul {
+        width:100%;
+        position:absolute;
+        top:100%;
+        left:0px;
+        padding:0px 18px;
+        background: #a1a1a1;
+    }
+ 
+    .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        content:'';
+    }
+ 
+    .menu li {
+        margin:10px 0px 10px 0px;
+        float:none;
+        display:block;
+    }
+ 
+    .menu a {
+      display:block;
+    }
+ 
+    .toggle-nav {
+      font-family: "Vidaloka", serif;
+      float:right;
+      display:inline-block;
+    }
+ 
+    .toggle-nav:hover, .toggle-nav.active {
+      text-decoration:none;
+    }
+
+    #social-nav-mobile a {
+      display: inline-block;
+      font-family: "Vidaloka", serif;
+      font-size: 1.4em;
+      text-transform: none;
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
 }
 
 
