@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Vidaloka);
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900,900i');
 
-
-
 *, *:before, *:after {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -36,6 +34,7 @@ h2 {
   color: #000;
   letter-spacing: 0;
   margin-top: 30px;
+  text-align: center;
 }
 
 p {
@@ -63,7 +62,6 @@ li {
   margin-right: 18px;
 }
 
-
 .clearfix:after {
   content: ".";
   display: block;
@@ -74,7 +72,6 @@ li {
 }
 
 /*///NAV///*/
-
 .social-nav a {
   font-size: 1.8em;
   text-transform: none;
@@ -87,7 +84,7 @@ li {
   width: 100%;
   display: block;
   float: none;
-  z-index: 3;
+  z-index: 4;
 }
 
 .menu-links a {
@@ -98,7 +95,6 @@ li {
   text-transform: uppercase;
   color: #000;
 }
-
 
 /*///ABOUT///*/
 #about {
@@ -186,7 +182,6 @@ button {
 }
 
 /*// WORK///*/
-
 #work {
   padding: 40px 200px 80px;
   margin-left: auto;
@@ -222,7 +217,6 @@ button {
 }
 
 /*///HOBBY///*/
-
 #hobby {
   padding: 40px 200px 80px;
   margin-left: auto;
@@ -252,9 +246,7 @@ button {
   display: block;
 }
 
-
 /*///CONTACT///*/
-
 #contact {
   padding: 40px 200px 80px;
   margin-left: auto;
