@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Vidaloka);
-@import url(https://fonts.googleapis.com/css?family=Futura Light:400,300,700&subset=latin,latin-ext);
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900,900i');
 
 
 
@@ -19,15 +19,10 @@ a {
   text-decoration: none;
   outline: none;
   color: #000;
-  font: normal 1.125em Futura Light Light, Helvetica, sans-serif;
+  font: 'Roboto', sans-serif;
   font-weight: 400;
+  text-decoration: underline;
 }
-
-a.contact-email {
-  letter-spacing: 0;
-  line-height: 2em;
-}
-
 
 h1 {
   font: normal 3em "Vidaloka", serif;
@@ -37,47 +32,14 @@ h1 {
 }
 
 h2 {
-  font: normal 2em "Vidaloka", serif;
-  color: #000;
-  letter-spacing: 0;
-  margin-top: 20px;
-}
-
-h3 {
-  font: normal 0.75em Futura Light, Helvetica, sans-serif;
-  text-transform: uppercase;
-  color: #f76b6b;
-}
-
-h4 {
-  font: normal 0.75em Futura Light, Helvetica, sans-serif;
-  text-transform: uppercase;
-  color: #ff3600;
-  display: inline;
-}
-
-h5 {
-  font: normal 2.2em Futura, Helvetica, sans-serif;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-  color: #000;
-}
-
-h6 {
   font: bold 1.625em "Vidaloka", serif;
   color: #000;
   letter-spacing: 0;
-}
-
-sup {
-  font: bold italic 0.75em "Vidaloka", serif;
-  display: inline;
-  color: #000;
-  cursor: pointer;
+  margin-top: 30px;
 }
 
 p {
-  font: normal 1.125em Futura Light, Helvetica, sans-serif;
+  font: normal 1.125em 'Roboto', sans-serif;
   line-height: 26px;
   color: #000;
 }
@@ -133,115 +95,34 @@ a:hover.back-to-top {
 
 /*///NAV///*/
 
-nav.fixed-nav-bar {
-  background-color: #a1a1a1;
-  text-align: center;
-  z-index: 4;
-  padding: 20px 0px 20px;
-  position: fixed;
-  width: 100%;
-}
-
 .social-nav a {
   font-size: 1.8em;
   text-transform: none;
 }
 
 .menu-links {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background: #c7e7dc;
   width: 100%;
   display: block;
   float: none;
+}
+
+.menu-links a {
   text-align: center;
-  font-family: normal Futura Light, Helvetica, sans-serif;
-  font-size: 0.7em;
+  font-family: normal Roboto, sans-serif;
+  font-size: 1em;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #000;
 }
 
-.fixed-nav-bar a:hover {
-  color: #ffb8ed;
-}
-
-/*----- Hidden items -----*/
-.toggle-nav {
-    display:none;
-    margin-right: 25px;
-    font-family: "Vidaloka", serif;
-}
-
-#social-nav-mobile a {
-  display: none;
-  font-family: "Vidaloka", serif;
-}
- 
-/*----- Responsive -----*/
-@media screen and (max-width: 860px) {
-    .menu {
-        position:relative;
-        display:inline-block;
-    }
-
-    #social-nav {
-      display: none;
-    }
- 
-    .menu ul.active {
-      display:none;
-    }
- 
-    .menu ul {
-        width:100%;
-        position:absolute;
-        top:100%;
-        left:0px;
-        padding:0px 18px;
-        background: #a1a1a1;
-    }
- 
-    .menu ul:after {
-        width:0px;
-        height:0px;
-        position:absolute;
-        top:0%;
-        content:'';
-    }
- 
-    .menu li {
-        margin:10px 0px 10px 0px;
-        float:none;
-        display:block;
-    }
- 
-    .menu a {
-      display:block;
-    }
- 
-    .toggle-nav {
-      font-family: "Vidaloka", serif;
-      float:right;
-      display:inline-block;
-    }
- 
-    .toggle-nav:hover, .toggle-nav.active {
-      text-decoration:none;
-    }
-
-    #social-nav-mobile a {
-      display: inline-block;
-      font-family: "Vidaloka", serif;
-      font-size: 1.4em;
-      text-transform: none;
-      padding-top: 10px;
-      padding-bottom: 20px;
-    }
-}
-
 
 /*///ABOUT///*/
 #about {
-  background-color: #ffb8ed;
-  padding: 90px 200px 110px;
+  background-color: #c7e7dc;
+  padding: 60px 200px 110px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -251,25 +132,37 @@ nav.fixed-nav-bar {
 
 .about-word {
   font-family: "Vidaloka", serif;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
-/*///SERVIÇOS///*/ 
-#services {
+#about img {
+  border: 8px solid #000;
+}
+
+/*///LOVE CODE///*/ 
+#love {
   margin-left: auto;
   margin-right: auto;
   background-color: #c0c0c0;
   height: 950px;
 }
 
-#services h1 {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-#services p {
+#love p {
+  text-align: justify;
   text-align: center;
   line-height: 1em;
+}
+
+button {
+  padding: 10px 20px;
+  background: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18pt;
+  border: 3px solid #000;
+}
+
+.love-box p {
+  font: normal 0.98em 'Roboto', sans-serif;
 }
 
 #background .scroll-words {
@@ -280,9 +173,9 @@ nav.fixed-nav-bar {
   width: 100%;
 }
 
-.services-box {
-  width: 400px;
-  height: 350px;
+.love-box {
+  width: 500px;
+  height: 420px;
   background-color: #fff;
   display: inline-block;
   position: fixed;
@@ -292,7 +185,7 @@ nav.fixed-nav-bar {
   right: 0;
   margin:auto;
   z-index: 1;
-  padding: 0px 40px 0px;
+  padding: 20px 40px 20px;
 }
 
 .block-1 {
@@ -306,40 +199,19 @@ nav.fixed-nav-bar {
 .scroll-words p {
   font-size: 4.5em;
   line-height: 0.5em;
-  color: #ffb8ed;
+  color: #00b3e6;
   font-family: 'Vidaloka', serif;
   text-align: center;
 }
 
 
-/*///CLIENTS///*/
-.client-area {
-  background-color: #fff;
-  padding: 7% 18% 12%;
-  position: relative;
-  z-index: 3;
-  width: 100%;
-  text-align: center;
-}
-
-.client-area h1 {
-  text-align: center;
-}
-
-.client-area img {
-  padding: 50px 50px 0px;
-}
-
-
-
-/*///WORK///*/
+/*// WORK///*/
 
 #work {
-  padding-top: 60px;
-  padding-bottom: 80px;
+  padding: 40px 200px;
   margin-left: auto;
   margin-right: auto;
-  background: #c0c0c0;
+  background: #fff;
   position: relative;
   z-index: 3;
   overflow: auto;
@@ -372,6 +244,35 @@ nav.fixed-nav-bar {
 
 
 
-/*///FOOTER///*/
+/*///HOBBY///*/
+
+#hobby {
+  padding: 40px 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #c7e7dc;
+  position: relative;
+  z-index: 3;
+  overflow: auto;
+  width: 100%;
+}
+
+#hobby h1 {
+  text-align: center;
+}
+
+#hobby p {
+  text-align: center;
+}
+
+#hobby .container {
+  width: 100%;
+  background-size: auto;
+}
+
+#hobby img {
+  margin: 25px auto;
+  display: block;
+}
 
 

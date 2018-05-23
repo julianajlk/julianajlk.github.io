@@ -1,18 +1,16 @@
 /*///RESPONSIVE MEDIA QUERIES///*/
 
-/* General */
-@media screen and (max-width: 320px) {
-  .nav .container div,
-  #work, .grid_9, .grid_12 {
-    width: 93.5%;
-    margin-left: 3.25%;
-    margin-right: 3.25%;
-  }
+/* Navigation */
+@media screen and (max-width: 860px) {
+    .menu-links {
+        position:relative;
+        display:inline-block;
+    }
+
+    #social-nav {
+      display: none;
+    }
 }
-
-
-
-
 
 /* About */
 @media screen and (max-width: 768px) {
@@ -38,73 +36,35 @@
 
 
 
-/* Services */
-@media screen and (max-width: 1200px) {
-  .scroll-words p {
-    font-size: 3.5em;
-    line-height: 0.5em;
-  }
-  #services {
-  height: 850px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .scroll-words p {
-    font-size: 3em;
-    line-height: 0.5em;
-  }
-  #services {
-  height: 750px;
-  }
-}
-
+/* Love Code */
 @media screen and (max-width: 875px) {
   .scroll-words p {
     font-size: 2.8em;
     line-height: 0.8em;
   }
-}
-
-@media screen and (max-width: 750px) {
-  .scroll-words p {
-    font-size: 2.5em;
-    line-height: 1em;
+  .love-box {
+    margin-top: 120px;
   }
 }
 
-@media screen and (max-width: 680px) {  /*fix!!!!*/
-  .block-2 {
-    float: left;
+@media screen and (max-width: 550px) {
+  .love-box {
+    width: 300px;
+    height: 600px;
   }
 }
 
+/* Work */
+@media screen and (max-width: 950px) {
+  #work {
+    padding: 40px 100px;
+  }
 
-/* Clients */
-@media screen and (max-width: 940px) {
-  .client-area {
-    padding: 7% 10% 12%;
+  #work img {
+    width: 100%;
+    height: auto;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .client-area {
-    padding: 7% 8% 12%;
-  }
-}
-
-@media only screen and (max-width: 735px) {
-  div.grid_4 {
-    width: 100%; /*not reading, fix!!!!*/
-  }
-}
-
-
-/* Back to top */
-@media screen and (max-width: 768px) {
-  #back-to-top {
-    display: none; /*not reading, fix!!!!*/
-  }
-}
 
 
