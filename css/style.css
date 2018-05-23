@@ -73,26 +73,6 @@ li {
   line-height: 0;
 }
 
-/*///BACK TO TOP///*/
-
-a.back-to-top {
-  display: none;
-  width: 55px;
-  height: 79px;
-  text-indent: -9999px;
-  position: fixed;
-  z-index: 999;
-  right: 20px;
-  bottom: 20px;
-  background: url("../images/jk-studio-backtotop-icon-2.png") no-repeat center 43%;
-}
-
-a:hover.back-to-top {
-  background-color: none;
-  background: url("../images/jk-studio-backtotop-icon-hover.png") no-repeat center 43%;
-}
-
-
 /*///NAV///*/
 
 .social-nav a {
@@ -205,11 +185,10 @@ button {
   text-align: center;
 }
 
-
 /*// WORK///*/
 
 #work {
-  padding: 40px 200px;
+  padding: 40px 200px 80px;
   margin-left: auto;
   margin-right: auto;
   background: #fff;
@@ -242,13 +221,10 @@ button {
   float: left;
 }
 
-
-
-
 /*///HOBBY///*/
 
 #hobby {
-  padding: 40px 200px;
+  padding: 40px 200px 80px;
   margin-left: auto;
   margin-right: auto;
   background: #c7e7dc;
@@ -280,25 +256,25 @@ button {
 /*///CONTACT///*/
 
 #contact {
-  padding: 40px 200px;
+  padding: 40px 200px 80px;
   margin-left: auto;
   margin-right: auto;
-  background: #c7e7dc;
+  background: #fff;
   position: relative;
   z-index: 3;
   overflow: auto;
   width: 100%;
 }
 
-#hobby h1 {
+#contact h1 {
   text-align: center;
 }
 
-#hobby p {
+#contact p {
   text-align: center;
 }
 
-#hobby .container {
+#contact .container {
   width: 100%;
   background-size: auto;
 }
