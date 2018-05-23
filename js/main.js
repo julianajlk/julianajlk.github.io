@@ -1,12 +1,12 @@
 // responsive nav
 
-$(".menu").click(function(){
+$(".topmenu").click(function(){
   $(".active").toggle();
 });
 
 $(window).resize(function(){
   if(window.innerWidth > 768) {
-    $(".menu").removeAttr("style");
+    $(".topmenu").removeAttr("style");
   }
 });
 
@@ -18,17 +18,6 @@ button.onclick = function() {
   button.innerHTML = "&#9825;&nbsp;" + count;
 };
 
-var results = document.getElementById('count').innerHTML = count;
-function iLoveCode(results) {
-  if (results < 2) {
-    return "You like code!";
-  } else {
-    return "You love code!";
-  }
-}
-  
-
- 
 
 // scrolling website
 var speed = 1000;
