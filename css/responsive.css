@@ -32,6 +32,11 @@
   .about-word {
     font-size: 1.6em;
   }
+
+  #about img {
+  margin: 25px auto;
+  display: block;
+}
 }
 
 
@@ -66,5 +71,17 @@
   }
 }
 
+
+/* Hobby */
+@media screen and (max-width: 950px) {
+  #hobby {
+    padding: 40px 100px;
+  }
+
+  #hobby img {
+    width: 100%;
+    height: auto;
+  }
+}
 
 

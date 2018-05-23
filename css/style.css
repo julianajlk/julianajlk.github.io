@@ -107,6 +107,7 @@ a:hover.back-to-top {
   width: 100%;
   display: block;
   float: none;
+  z-index: 3;
 }
 
 .menu-links a {
@@ -276,3 +277,28 @@ button {
 }
 
 
+/*///CONTACT///*/
+
+#contact {
+  padding: 40px 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #c7e7dc;
+  position: relative;
+  z-index: 3;
+  overflow: auto;
+  width: 100%;
+}
+
+#hobby h1 {
+  text-align: center;
+}
+
+#hobby p {
+  text-align: center;
+}
+
+#hobby .container {
+  width: 100%;
+  background-size: auto;
+}
