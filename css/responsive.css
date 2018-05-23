@@ -5,6 +5,7 @@
   .menu-links {
       position:relative;
       display:inline-block;
+      padding-bottom: 30px;
   }
 
   #social-nav {
