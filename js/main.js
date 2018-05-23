@@ -1,14 +1,3 @@
-// responsive nav
-
-$(".topmenu").click(function(){
-  $(".active").toggle();
-});
-
-$(window).resize(function(){
-  if(window.innerWidth > 768) {
-    $(".topmenu").removeAttr("style");
-  }
-});
 
 // button click here
 var button = document.getElementById("clickhere"),

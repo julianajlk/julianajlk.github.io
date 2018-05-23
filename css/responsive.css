@@ -11,79 +11,7 @@
     display: none;
   }
 }
-/*----- Hidden items -----*/
-.toggle-nav {
-    display:none;
-    margin-right: 25px;
-    font-family: "Vidaloka", serif;
-}
 
-#social-nav-mobile a {
-  display: none;
-  font-family: "Vidaloka", serif;
-}
- 
-/*----- Responsive -----*/
-@media screen and (max-width: 860px) {
-    .topmenu {
-        position:relative;
-        display:inline-block;
-    }
-
-    #social-nav {
-      display: none;
-    }
- 
-    .topmenu ul.active {
-      display:none;
-    }
- 
-    .topmenu ul {
-        width:100%;
-        position:absolute;
-        top:100%;
-        left:0px;
-        padding:18px 18px;
-        background: #c7e7dc;
-    }
- 
-    .topmenu ul:after {
-        width:0px;
-        height:0px;
-        position:absolute;
-        top:0%;
-        content:'';
-    }
- 
-    .topmenu li {
-        margin:10px 0px 10px 0px;
-        float:none;
-        display:block;
-    }
- 
-    .topmenu a {
-      display:block;
-    }
- 
-    .toggle-nav {
-      font-family: "Vidaloka", serif;
-      float:right;
-      display:inline-block;
-    }
- 
-    .toggle-nav:hover, .toggle-nav.active {
-      text-decoration:none;
-    }
-
-    #social-nav-mobile a {
-      display: inline-block;
-      font-family: "Vidaloka", serif;
-      font-size: 1.4em;
-      text-transform: none;
-      padding-top: 10px;
-      padding-bottom: 20px;
-    }
-}
 
 /* About */
 @media screen and (max-width: 768px) {
