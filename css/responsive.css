@@ -3,16 +3,15 @@
 /* Navigation */
 @media screen and (max-width: 860px) {
   .menu-links {
-      position:relative;
-      display:inline-block;
-      padding-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 30px;
   }
 
   #social-nav {
     display: none;
   }
 }
-
 
 /* About */
 @media screen and (max-width: 768px) {
@@ -35,12 +34,11 @@
     font-size: 1.6em;
   }
   #about img {
-  margin: 25px auto;
-  display: block;
-  width: 100%;
+    margin: 25px auto;
+    display: block;
+    width: 100%;
   }
 }
-
 
 /* Love Code */
 @media screen and (max-width: 875px) {
@@ -48,18 +46,17 @@
     font-size: 2.8em;
     line-height: 0.8em;
   }
-  .love-box {
+  .projects-box {
     margin-top: 120px;
     margin-bottom: 100px;
   }
-  .love-box h2 {
+  .projects-box h2 {
     font-size: 1.2em;
-
   }
 }
 
 @media screen and (max-width: 550px) {
-  .love-box {
+  .projects-box {
     width: 300px;
     height: 600px;
   }
@@ -75,7 +72,6 @@
     height: auto;
   }
 }
-
 
 /* Hobby */
 @media screen and (max-width: 950px) {
@@ -104,5 +100,3 @@
     font-size: 1.3em;
   }
 }
-
-

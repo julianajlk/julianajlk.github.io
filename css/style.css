@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Vidaloka);
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900,900i');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,900,900i");
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -17,7 +19,7 @@ a {
   text-decoration: none;
   outline: none;
   color: #000;
-  font: 'Roboto', sans-serif;
+  font: "Roboto", sans-serif;
   font-weight: 400;
   text-decoration: underline;
 }
@@ -37,8 +39,14 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font: bold 1.3em "Roboto", sans-serif;
+  color: #000;
+  text-align: center;
+}
+
 p {
-  font: normal 1.125em 'Roboto', sans-serif;
+  font: normal 1.125em "Roboto", sans-serif;
   line-height: 26px;
   color: #000;
 }
@@ -123,15 +131,15 @@ li {
   z-index: 3;
 }
 
-/*///LOVE CODE///*/ 
-#love {
+/*///TECHNICAL PROJECTS///*/
+#projects {
   margin-left: auto;
   margin-right: auto;
   background-color: #c0c0c0;
   height: 950px;
 }
 
-#love p {
+#projects p {
   text-align: justify;
   text-align: center;
   line-height: 1em;
@@ -140,13 +148,13 @@ li {
 button {
   padding: 10px 20px;
   background: transparent;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18pt;
   border: 3px solid #000;
 }
 
-.love-box p {
-  font: normal 0.98em 'Roboto', sans-serif;
+.projects-box p {
+  font: normal 0.98em "Roboto", sans-serif;
 }
 
 #background .scroll-words {
@@ -157,7 +165,7 @@ button {
   width: 100%;
 }
 
-.love-box {
+.projects-box {
   width: 500px;
   height: 420px;
   background-color: #fff;
@@ -167,7 +175,7 @@ button {
   bottom: 0;
   left: 0;
   right: 0;
-  margin:auto;
+  margin: auto;
   z-index: 1;
   padding: 20px 40px 20px;
 }
@@ -184,7 +192,7 @@ button {
   font-size: 4.5em;
   line-height: 0.5em;
   color: #00b3e6;
-  font-family: 'Vidaloka', serif;
+  font-family: "Vidaloka", serif;
   text-align: center;
 }
 
