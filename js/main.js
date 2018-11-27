@@ -1,12 +1,23 @@
-// button click here
-// var button = document.getElementById("clickhere"),
-//   count = 0;
-// button.onclick = function() {
-//   count = count + 1;
-//   button.innerHTML = "&#9825;&nbsp;" + count;
-// };
+// SCROLL TO TOP
+//show button at 30px scroll
+window.onscroll = function() {
+  scrollFunction();
+};
 
-// scrolling website
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("scrollButton").style.display = "block";
+  } else {
+    document.getElementById("scrollButton").style.display = "none";
+  }
+}
+//scroll to the top of the document onclick
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+//SCROLLING WEBSITE FROM NAVBAR
 var speed = 1000;
 
 $("nav a").click(function(event) {

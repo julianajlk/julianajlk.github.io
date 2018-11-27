@@ -40,7 +40,7 @@ h2 {
 }
 
 h3 {
-  font: bold 1.3em "Roboto", sans-serif;
+  font: bold 1.125em "Vidaloka", serif;
   color: #000;
   text-align: center;
 }
@@ -97,11 +97,15 @@ li {
 
 .menu-links a {
   text-align: center;
-  font-family: normal Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #000;
+}
+
+.menu-links a:hover {
+  color: #f58282;
 }
 
 /*///ABOUT///*/
@@ -145,14 +149,6 @@ li {
   line-height: 1em;
 }
 
-button {
-  padding: 10px 20px;
-  background: transparent;
-  font-family: "Roboto", sans-serif;
-  font-size: 18pt;
-  border: 3px solid #000;
-}
-
 .projects-box p {
   font: normal 0.98em "Roboto", sans-serif;
 }
@@ -167,7 +163,7 @@ button {
 
 .projects-box {
   width: 500px;
-  height: 420px;
+  height: 480px;
   background-color: #fff;
   display: inline-block;
   position: fixed;
@@ -191,7 +187,7 @@ button {
 .scroll-words p {
   font-size: 4.5em;
   line-height: 0.5em;
-  color: #00b3e6;
+  color: #f58282;
   font-family: "Vidaloka", serif;
   text-align: center;
 }
@@ -229,6 +225,13 @@ button {
 
 #work .second-col img {
   float: left;
+}
+
+#work .work-single img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
 }
 
 /*///HOBBY///*/
@@ -284,4 +287,23 @@ button {
 #contact .container {
   width: 100%;
   background-size: auto;
+}
+
+/*///SCROLL TO TOP///*/
+#scrollButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99; /* does not overlap */
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#scrollButton:hover {
+  color: #f58282;
+  background: none;
 }
